@@ -1,0 +1,221 @@
+* body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(214, 210, 178, 0.658);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+  position: relative;
+  top: 4rem;
+  text-align: center;
+  margin-top: 0;
+  font-size: 5rem;
+  width: 70rem;
+  color: beige;
+}
+
+
+#navbar {
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: 15rem;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url(images/camo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#navbar img{
+  width: 100% auto;
+}  
+  
+  
+
+#header ul{
+  display: flex block;
+  list-style-type: none;
+  margin: 2em 2em 0 0;
+  padding: 0;
+  width: 20rem;
+  text-align: right;
+  position: sticky;
+  left: 50rem;
+  bottom: 7rem;
+  
+}
+#header li a{
+  display: block;
+  color: rgb(218, 218, 181);
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 1rem;
+  width: auto;
+}
+#header a:hover{
+  color:  black;
+}
+#slideshow{
+  height: 40rem;
+  background-image: url(images/soldier-sunset.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#slideshow h3{
+  font-size: 5rem;
+  margin: 0 0 0 .5em;
+  padding: 0;
+  width: 50rem;
+  height: fit-content;
+  color: rgba(44, 44, 13, 0.589);
+}
+#slideshow p{
+  display: flex;
+  width: 35rem;
+  height: auto;
+  margin: 0;
+  padding: 1em;
+  font-size: 1.2em;
+  color: beige;
+  position: relative;
+  right: 25em;
+  top: 15em;
+}
+#join{
+  height: 14rem;
+  margin: auto;
+  display: ;
+}
+#join h3{
+  position: relative;
+  left: 1.2em;
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: .1em;
+  margin: .5em 0 .5em 0;
+  padding: 0;
+  color: rgba(44, 44, 13, 0.589);
+}
+form{
+  display: flex;
+  height: ;
+  color:  rgba(44, 44, 13, 0.589) ;
+  width: 80%;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+}
+form label{
+  margin: auto .5em auto .5em ;
+  height: 2em;
+  font-size: 1.4em;
+  text-align: center;
+
+}
+form input{
+  background-color: rgb(231, 226, 175);
+  color: black;
+  font-size: 1.0em;
+}
+form input:focus{
+  border: 3px solid greenyellow;
+}
+#button{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(44, 44, 13, 0.589);
+  width: 30%;
+  height: 2.5em;
+  margin:  1em auto;
+  left: 40%;
+  font-size: 1.2em;
+  box-shadow: none;
+  border: 1px solid rgba(44, 44, 13, 0.589);
+  border-radius: .6em;
+  letter-spacing: .2em;
+  font-weight: bolder;
+}
+
+#button:hover{
+  background-color: rgb(141, 141, 7);
+  color: antiquewhite;
+}
+.mission{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 16rem 16rem;
+  grid-gap: .5em;
+}
+#mission-state{
+  background-color: rgb(162, 180, 125);
+  color: rgba(255, 250, 209, 0.658);
+  text-align: center;
+  font-size: 1.2em;
+}
+#mission-state h4{
+  height: 1.6em;
+  margin: .4em;
+  line-height: 2.2em;
+}
+#mission-state p{
+  margin: auto 1em auto 1em;
+}
+
+#contact-info{
+  background-color: rgb(162, 180, 125);
+  color: rgba(255, 250, 209, 0.658);
+  text-align: center;
+  font-size: 1.2em;
+}
+#contact-info ul{
+  list-style-type: none;
+  margin: auto;
+}
+#contact-info li{
+  width: 30rem;
+  justify-content: center;
+  margin: .2em;
+}
+
+#contact-info a{
+  color: rgba(255, 250, 209, 0.658);
+  text-decoration: none;
+}
+
+#contact-info a:hover{
+  color: rgb(78, 55, 55);
+}
+
+
+#mission-aid{
+  display: grid;
+  background-image: url(images/soldiers.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(226, 204, 76);
+  justify-content: center;
+}
+  
+
+.mission h4{
+  text-align: center;
+}
+#contacts{
+  display: grid;
+  justify-content: center;
+  background-image: url(images/soldiers-plane.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  justify-content: center;
+  width: ;
+}
+ 
